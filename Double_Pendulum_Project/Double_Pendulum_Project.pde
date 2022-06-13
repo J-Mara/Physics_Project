@@ -88,8 +88,8 @@ void pend3(){
     fill(255);
     if(play){
       stroke(0);
-      line((((1000-(length+length2+20))/2)+length+length2)+10+pinx+xtem2, ytem2, (((1000-(length+length2+20))/2)+length+length2)+10+pinx+xp3, yp3);
-      line((((1000-(length+length2+20))/2)+length+length2)+10+pinx+xtem12, ytem12, (((1000-(length+length2+20))/2)+length+length2)+10+pinx+xp2, yp2);
+      line((length+length2)+10+pinx+xtem2, ytem2, (length+length2)+10+pinx+xp3, yp3);
+      line((length+length2)+10+pinx+xtem12, ytem12, (length+length2)+10+pinx+xp2, yp2);
       move02();
     }
     xtem2 = xp3;
